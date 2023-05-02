@@ -5,7 +5,7 @@ const Item = ({ nameType, image, amount, description, backColor, id }) => {
       <div className='item'>
         <div className='header' style={{ backgroundColor: backColor }}>
           <h4 class="font-bold text-white text-center text-4xl p-2">{nameType}</h4>
-          <img className="w-full max-h-60 rounded-t-lg" src={image}/>
+          <img className="w-full max-h-60 rounded-t-lg hover:scale-110" src={image} />
         </div>
         <div className='footer'>
             

@@ -3,6 +3,7 @@ import Item from "../Item"
 import maldives from "./maldives.jpg"
 import santorini from "./santorini2.jpg"
 import hawaii from "./hawaii2.jpg"
+import "./Card.css"
 
 const ProductCard = ({nameType, image, amount, description, id, className}) =>{
     return(
@@ -18,7 +19,7 @@ const Card = () =>{
 
     return(
         <>
-       <div className="flex m-2  lg:text-2xl sm:text2xl justify-center ">
+       <div className="flex m-2  lg:text-2xl sm:text2xl justify-center responsive-card ">
            
        <ProductCard nameType="Maldives" image={maldives} description="Discover the exotic beauty of the Maldives, a paradise made up of over 1,000 islands with white sandy beaches and crystal clear waters that invite relaxation. With activities such as snorkeling, diving, and boat tours, this destination offers an unforgettable experience. Perfect for a romantic getaway, the Maldives boast luxurious resorts, sophisticated restaurants, and comfortable accommodations. Secure your booking now and prepare for an unforgettable experience!" amount="$250"  className="text-center m-1 p-4 bg-emerald-400 rounded-2xl w-90 " id="1" />
 

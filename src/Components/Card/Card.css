@@ -1,0 +1,7 @@
+@media only screen and (max-width: 800px) {
+    .responsive-card {
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+  }
